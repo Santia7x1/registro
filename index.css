@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+     
+  }
+  
+  .registro {
+    width: 25%;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 8%;
+    border-radius: 10px;
+    font-family: 'IM Fell English SC', serif;
+    color: white;
+  }
+  
+  .registro h4 {
+    font-size: 160%;
+    margin-bottom: 8%;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 3%;
+    border-radius: 4px;
+    margin-bottom: 5%;
+    border: 1px solid #000;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 120%;
+    color: white;
+  }
+  
+  .registro p {
+    height: 10%;
+    margin-top: 8%;
+    text-align: center;
+    font-size: 120%;
+    line-height: 150%;
+  }
+  
+  .registro a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .registro a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .registro .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 4% 20%;
+    color: white;
+    margin: 20%;
+    font-size: 120%;
+    font-family: 'IM Fell English SC', serif;
+  }
